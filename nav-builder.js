@@ -11,7 +11,7 @@
     name:'Knowledge',
     header:true,
     footer:true,
-    link:'knowledge.html'
+    link:'https://kandksoftware.github.io/macro-terminal-pro/knowledge.html'
   },{
     name:'Support',
     header:true,
