@@ -1,128 +1,106 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="favicon.png" type="image/png" />
-    <link rel="stylesheet" type="text/css" href="css/mobile.css">
-    <link rel="stylesheet" type="text/css" href="css/header.css">
-    <link rel="stylesheet" type="text/css" href="css/footer.css">
-    <link rel="stylesheet" type="text/css" href="css/card.css">
-    <link rel="stylesheet" type="text/css" href="css/main.css">
-    <link rel="stylesheet" type="text/css" href="css/banner.css">
-    <title>Macro Mill Plus CNC | a CNC interpreter and simulator for Fanuc and Haas to learn, test and debug CNC parametric programming and g-codes</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="resources/macro-mill-icon.png" type="image/png" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Macro Mill Plus CNC | A must-have app for every CNC programmer / machinist!</title>
     <meta name="google-site-verification" content="W8Qc2bZnS1sBiefcr__I_VcYaf1lbykYrjssdS-fZAE" />
-    <meta name="description" content="Macro Terminal CNC is CNC simulator with CNC interpreter for Fanuc and Haas to learn, test and debug cnc parametric programming and g-code used in cnc milling machines and lathes" />
-    <meta name="keywords" content="" />
+    <meta name="description" content="Macro Mill Plus CNC - A must-have app for every CNC programmer / machinist!" />
+    <meta name="keywords" content=""/>
     <meta name="robots" content="index, follow">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <noscript>To see the content your browser must to support JavaScript!</noscript>
+    <noscript>Your browser does not support JavaScript!</noscript>
     <div id="app" class="hide">
-      <header id="header"></header>
-      <div class="module banner margin-top-large hide">
-        <div class="row">
-          <div class="column col-full">
-            You have no programming skills or are you a beginner?<br/>Don't worry, we have a different CNC app which doesn't require CNC programming skills. <a href="https://mobilecamcnc.github.io/products/">Read more</a>
+      <header>
+        {{ header }}
+      </header>
+      <main>
+        <section class="main flex-c">
+          <div class="main__product-text p-1">
+            <h1>Macro Mill Plus CNC</h1>
+            <h3>Macro Mill Plus CNC - the most modern and secure software to speed up your work and improve safety
+            </h3>
+            <a class="btn btn-brand-color btn-purchase" href="#">Purchase</a>
           </div>
-        </div>
-      </div>
-      <div class="module margin-top-large" id="about">
-        <div class="row">
-          <div class="column col-medium increase-margin">
-            <div class="desciption-container large-font border">
-              <h2>Macro Mill Plus CNC </br>is an advanced new generation 3D CNC</span></h2>
-              <p style="text-align: left;">Macro Mill Plus CNC was built based on previous experience with Macro Terminal CNC, Macro Lathe CNC, as well as requests and information from users around the world. All this gave the following results: a powerful 3D simulator (100 times higher performance than Macro Terminal CNC) with tool representation, a new, faster macro interpreter (3 times higher performance than Macro Terminal CNC), 3-layer AVS (Advance Validation System), more file extensions available for saving projects and many other improvements.</p>
-              <br/>
-              <a href="https://apps.apple.com/us/app/macro-mill-plus/id1562501002"><img class="redirect-img" src="resources/app-store-badge.svg"></a>
-              <a href="https://play.google.com/store/apps/details?id=com.kandksoftware.macromillplus"><img class="redirect-img" src="resources/google-play-badge.svg"></a>
-            </div>
+          <div class="main__product-image p-1">
+            <img class="" src="resources/main.png" alt="Code CNC">
           </div>
-          <div class="column col-medium">
-            <div class="image-box">
-              <div class="double-image-container set-center">
-                <div id="mobile-frame" class="first-absolute-position">
-                  <img src="resources/graphics.png" alt="Circular slot milling with Macro Terminal CNC">
-                </div>
-                <div id="mobile-frame" class="second-absolute-position">
-                  <img src="resources/code.png" alt="G-code with the CNC macro">
-                </div>
-              </div>
-            </div>
+        </section>
+        <section class="brands p-1 flex-c">
+          <h1>Fanuc</h1>
+          <h1>Haas</h1>
+          <h1>Siemens</h1>
+          <h1>Mazak</h1>
+        </section>
+        <section class="section section__bg-standard r-o p-1">
+          <div class="flex-c">
+            <img class="mobile-2" src="resources/security.png" alt="Code CNC">
           </div>
-        </div>
-      </div>
-      <div class="module margin-top-large" id="co-companies" style="background-color:#fff;">
-        <div class="row">
-          <div class="column col-full">
-            <h1>Fanuc Siemens Haas Mazak</h1>
+          <div class="t-c">
+            <h1>About Macro Mill Plus CNC</h1>
+            <h3>Macro Mill Plus CNC is the successor to the Macro Terminal CNC. This application was created on the basis of many opinions and observations of the users of the Macro Terminal CNC and others. Unfortunately, the Macro Terminal CNC was not prepared for such a number of improvements and additions and it was necessary to create a new application from scratch.</h3>
+            <a class="btn btn-brand-color" href="#" style="display:inline-block;margin-top:1rem;">Read</a>
           </div>
-        </div>
-      </div>
-      <!-- compatibility -->
-      <div class="module margin-top-large" id="product">
-        <div class="row">
-          <div class="column col-medium">
-            <div class="image-box">
-              <div id="mobile-frame">
-                <img src="resources/graphics2.png" alt="Pocket milling using G68 g-code">
-              </div>
-            </div>
+        </section>
+        <section class="section reversed p-1">
+          <div class="t-c">
+            <h1>Compatibility</h1>
+            <h3>Macro Terminal CNC is fully compatible with Fanuc Custom Macro B and Haas version of this system which helps to develop CNC macro programming skills. It is also compatible with ISO, so you can program for controllers such as Fanuc, Haas, Mazak, Heidenhain and others that use this standard. Also supports popular Fanuc / Haas G-codes such as: G16 (polar coordinates), G51 (scaling), G52 (shift work offset), G68 (coordinate rotation), G65 / G66 (macro subroutine call), G98 (retract to initial “Z” value level), G99 (retract to “R” value level), repeat canned cycle (L and K) and Haas typical g-codes such as: Haas G70 Bolt Hole Circle, Haas G71 Bolt Hole Arc, Haas G72 Bolt Holes Along an Angle. </h3>
           </div>
-          <div class="column col-medium">
-            <div class="desciption-container large-font">
-              <h2>Compatibility</h2>
-              <div style="text-align: left;">
-                <p style="text-align: left;">
-                  Macro Mill Plus CNC intepreter is compatible with CNC controls: Fanuc 0(M), Fanuc 6(M), Fanuc 10(M), Fanuc 11(M), Fanuc 12(M), Fanuc 15(M), Fanuc 16(M), Fanuc 18(M), Fanuc 20(M), Fanuc 21(M), Haas and others using CNC macros based on Fanuc Custom Macro B.
-
-                </p>
-              </div>
-            </div>
+          <div class="flex-c">
+            <img class="mobile" src="resources/spiral.png" alt="Code CNC">
           </div>
-        </div>
-      </div>
-      <!-- testing -->
-      <div class="module margin-top">
-        <div class="row">
-          <div class="column col-medium">
-            <div class="desciption-container large-font">
-              <h2>Do you want to program faster, more efficiently and safely?</h2>
-              <p style="text-align: left;">CNC programming with CNC macros (so called parametric programming with Fanuc Macro B / Haas) is an extremely efficient and flexible way to work on various CNC machines.However, it should be remembered that while CNC macros greatly improve traditional programming, even the slightest mistake can cause the machine to crash or cause injury or death to the operator.By using the Macro Mill Plus CNC, you can check your code accurately, thanks to the built-in module that displays all logical processes and calculations step by step.
-  </p>
-            </div>
+        </section>
+        <section class="section section__bg-standard r-o p-1">
+          <div class="flex-c">
+            <img class="mobile" src="resources/error_2.png" alt="Code CNC">
           </div>
-          <div class="column col-medium">
-            <div class="image-box">
-              <div id="mobile-frame">
-                <img src="resources/errors.png" alt="Displaying errors in the CNC macro and g-code">
-              </div>
-            </div>
+          <div class="t-c">
+            <h1>Program safer and faster</h1>
+            <h3>CNC programming with CNC macros (so called parametric programming with Fanuc Macro B / Haas) is an extremely efficient and flexible way to work on various CNC machines.However, it should be remembered that while CNC macros greatly improve traditional programming, even the slightest mistake can cause the machine to crash or cause injury or death to the operator.By using the Macro Terminal CNC, you can check your code accurately, thanks to the built-in module that displays all logical processes and calculations step by step.</h3>
           </div>
-        </div>
-      </div>
-      <div class="module margin-top-large" id="support">
-        <div class="row">
-          <div class="column col-medium">
-            <div class="image-box">
-              <div id="mobile-frame">
-                <img src="resources/outcome.png" alt="milling operation in progress">
-              </div>
-            </div>
+        </section>
+        <section class="section reversed p-1">
+          <div class="t-c" >
+            <h1 style="text-align: center;">The best option for you</h1>
+            <h3 style="text-align: left;">
+              <span class="counter">Macro Terminal CNC is the only CNC software in the world that shows all math and logic operations one by one, line by line (known as parse tree).</span>
+              <span class="counter">Macro Terminal CNC can be used for traditional programming as well as for parametric programming.</span>
+              <span class="counter">Macro Terminal CNC supports <span class="highlight">G16, G52, G68</span> and <span class="highlight">Haas G70 Bolt Hole Circle, Haas G71 Bolt Hole Arc, Haas G72 Bolt Holes Along an Angle.</span></span>
+              <span class="counter">Pay once and enjoy free upgrades!</span>
+            </h3>
           </div>
-          <div class="column col-medium">
-            <div class="desciption-container large-font" style="text-align: left;">
-              <h2>Contact us</h2>
-              <span>mobilecamcnc@gmail.com</span>
-              <h4 style="color:red">We will answer you within 48hours*</h4>
-              <p style="color:lightGray">*Excluding weekends and holidays</p>
-            </div>
+          <div class="flex-c">
+            <img class="mobile" src="resources/simulation.png" alt="Code CNC">
           </div>
-        </div>
-      </div>
-      <footer class="module margin-top-large" id="footer"></footer>
+        </section>
+        <!--<section class="customers-header p-1 flex-c">
+          <h1 class="customers-header__desc">What some of our customers think about Macro Terminal CNC?</h1>
+        </section>
+        <section class="customers p-1 section__bg-standard">
+          {{ feedback }}
+        </section>-->
+        <section class="contact p-1 r-o" id="contact">
+          <div class="flex-c">
+            <img class="mobile" src="resources/pocket.png" alt="Code CNC">
+          </div>
+          <div class="t-c">
+            <h1 class="contact__title">Contact us</h1>
+            <h2 class="contact__mail">mobilecamcnc@gmail.com</h2>
+            <h3 class="contact__mess">We will answer you within 48hours*</h3>
+            <p class="contact__warn">*Excluding weekends and holidays</p>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        {{ footer }}
+      </footer>
+      <script src="js/script-loader.js"></script>
+      <script src="js/main.js"></script>
     </div>
   </body>
-  <script src="nav-builder.js"></script>
 </html>
