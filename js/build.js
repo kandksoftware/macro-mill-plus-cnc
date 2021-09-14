@@ -75,6 +75,10 @@ const main = () => {
     link:'product.html',
     desc:'Product'
   },{
+    type:['nav','menu','footer'],
+    link:'avs.html',
+    desc:'AVS'
+  },{
     type:['footer','menu'],
     link:'https://kandksoftware.github.io/entry/',
     desc:'Products'
