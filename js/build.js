@@ -6,8 +6,7 @@ const main = () => {
     content:`<nav class="nav">
       <div class="nav__container">
         <img class="nav__icon" src="resources/macro-mill-icon.png" alt="Macro Terminal CNC">
-        <div class="nav__name">
-        </div>
+        <div class="nav__name"></div>
       </div>
       <div class="nav__links"></div>
       <div class="hamburger">
@@ -17,7 +16,7 @@ const main = () => {
       </div>
     </nav>
     <div class="menu-overlay"></div>
-    <div class="menu"></div>`
+    <div class="menu">Inject here</div>`
   },{
     id:'footer',
     content:`<div class="footer__links"></div>
@@ -92,7 +91,7 @@ const main = () => {
     desc:'Knowledge'
   },{
     type:['nav','menu','footer'],
-    link:'index.html#contact',
+    link:'contact.html',
     desc:'Contact'
   },{
     type:['footer'],
