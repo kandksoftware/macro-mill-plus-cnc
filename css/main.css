@@ -212,6 +212,12 @@ noscript {
   color: orange;
 }
 
+.signature {
+  text-align: right;
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
 .nav {
   z-index: 3;
   display: -webkit-box;
@@ -924,6 +930,15 @@ main {
   counter-reset: c;
 }
 
+.article__img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 0.5rem;
+}
+
 .article__title {
   color: orange;
 }
@@ -938,7 +953,8 @@ main {
 
 .article__content {
   padding-bottom: 0.5rem;
-  color: #737373;
+  color: #404040;
+  font-size: 1.2rem;
 }
 
 .article__content > a {
@@ -958,6 +974,38 @@ main {
   .article__title {
     text-align: left;
   }
+}
+
+.message {
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.message > a {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.message--alert {
+  border: 2px solid red;
+  background-color: rgba(255, 0, 0, 0.2);
+  color: red;
+}
+
+.message--alert > a {
+  color: red;
+}
+
+.message--info {
+  border: 2px solid green;
+  background-color: rgba(0, 128, 0, 0.2);
+  color: green;
+}
+
+.message--info > a {
+  color: green;
 }
 
 .main__product-text, .main__product-image {
@@ -984,6 +1032,11 @@ main {
   font-weight: 800;
   color: orange;
   text-transform: capitalize;
+}
+
+.main__desc {
+  font-weight: bold;
+  font-size: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
