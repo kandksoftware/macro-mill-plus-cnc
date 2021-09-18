@@ -8,6 +8,7 @@ window.addEventListener('load', () => {
     __REMOTE_PATH + 'menu.js',
     __REMOTE_PATH + 'template-injector.js',
     __REMOTE_PATH + 'feedback.js',
+    __PATH + 'replacer.js',
     __PATH + 'build.js',
   ]).exec(() => main())
 })

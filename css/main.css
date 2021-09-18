@@ -773,11 +773,13 @@ noscript {
 .faq__question::before {
   counter-increment: c;
   content: counter(c) ". ";
+  color: orange;
 }
 
 .faq__answer {
   padding-bottom: 0.5rem;
   color: #737373;
+  font-size: 1.2rem;
 }
 
 .faq__answer > a {
