@@ -125,7 +125,7 @@ const main = () => {
     img:'resources/app-store-badge.svg'
   },{
     name:'Google Play',
-    link:'https://play.google.com/store/apps/details?id=com.kandksoftware.macromillplus',
+    link:'https://kandksoftware.github.io/saas/',
     img:'resources/google-play-badge.svg'
   }])//modal
   
